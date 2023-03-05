@@ -1,4 +1,3 @@
-
 downnload all package.
 extract into todolist folder and put in xampp/htdocs/laravel.
 run xampp apache and mysql.
