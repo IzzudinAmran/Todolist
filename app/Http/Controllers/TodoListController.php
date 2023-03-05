@@ -14,7 +14,7 @@ class TodoListController extends Controller
      */
     public function index()
     {
-        return view('view_list')->with('todo_arr',todo_list::all()->sortBy('DESC'));
+        return view('view_list')->with('todo_arr',todo_list::orderBy('created_at', 'desc')->get());
     }
 
     /**
